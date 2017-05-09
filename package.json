@@ -1,0 +1,27 @@
+{
+    "name": "n-design",
+    "version": "1.0.0",
+    "description": "Combination of Jquery, Bootstrap, Material Design and Font Awesome",
+    "main": "",
+    "scripts": {
+        "pregit-publish": "git add . && git commit -m 'preparing to publish new version'",
+        "git-publish": "npm version patch",
+        "postgit-publish": "git push"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nivinjoseph/n-design.git"
+    },
+    "keywords": [
+        "jQuery",
+        "Bootstrap",
+        "Material Design",
+        "Font Awesome"
+    ],
+    "author": "NiviN",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/nivinjoseph/n-design/issues"
+    },
+    "homepage": "https://github.com/nivinjoseph/n-design#readme"
+}
